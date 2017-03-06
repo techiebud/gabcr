@@ -6,12 +6,14 @@ import { FormsModule } from "@angular/forms";
 import { HttpModule } from "@angular/http";
 import { NavComponent } from "./nav/nav.component";
 import { NgModule } from "@angular/core";
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    routedComponents
+    routedComponents,
+    FooterComponent
 
   ],
   imports: [

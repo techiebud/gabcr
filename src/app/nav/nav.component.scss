@@ -1,8 +1,17 @@
-   img {
+   img#bc {
   display: block;
   max-width:230px;
   max-height:95px;
   width: auto;
   height: auto;
   float: left;
+}
+
+  img#gaflag  {
+  display: inline;
+  max-width:230px;
+  max-height:50px;
+  width: auto;
+  height: auto;
+  float: right;
 }

@@ -8,6 +8,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class NavComponent implements OnInit {
   bcImagePath = "../../assets/images/bordercollie.gif";
+ 
   constructor() { }
 
   ngOnInit() {
