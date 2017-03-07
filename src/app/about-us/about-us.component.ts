@@ -6,7 +6,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./about-us.component.scss"]
 })
 export class AboutUsComponent implements OnInit {
-
+  flagImagePath = "../../assets/images/gaflag.gif";
   constructor() { }
 
   ngOnInit() {
