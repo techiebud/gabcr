@@ -1,3 +1,5 @@
+import * as $ from "jquery";
+
 import { Component, OnInit } from "@angular/core";
 
 @Component({
@@ -10,6 +12,7 @@ export class AdoptableDogsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+      $("footer.footer").hide();
   }
 
 }
